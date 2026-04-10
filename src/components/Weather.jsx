@@ -81,7 +81,6 @@ const Weather = () => {
          <img src={weatherData.icon} alt="" className='weather-icon' />
       <p className='temperature'>{weatherData.temperature}°c</p>
       <p className='location'>{weatherData.location}</p>
-      <p>this is my testing git commit</p>
       <div className="weather-data">
         <div className="col">
           <img src={humidity_icon} alt="" />
